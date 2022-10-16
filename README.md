@@ -1,7 +1,14 @@
 # Tratamento-Excessoes-Java
 Tratar exceções torna o programa + robusto e confiável
 
-### Visão Geral
+
+🔗 Referência para criar esse resumo:
+
+https://github.com/cami-la/exceptions-java
+
+
+
+## Visão Geral
 
 Exceção é um evento que interrompe o fluxo normal de processamento de uma classe.
 
@@ -24,6 +31,8 @@ O compilador não verifica o código para ver se a exceção foi capturada ou de
 
 Exceptions que DEVEM ser evitados e tratados pelo desenvolvedor para o programa funcionar.
 
+A mais famosa é a IOExceptions.
+
 As exceções que são herdadas da classe Exception, mas não de RuntimeException.
 
 O compilador verifica cada chamada de método e declaração de método para determinar se o método lança (throws) exceções verificadas.
@@ -31,6 +40,10 @@ O compilador verifica cada chamada de método e declaração de método para det
 Se lançar, o compilador assegura que a exceção verificada é capturada ou declarada em uma cláusula throws.
 
 Caso não capturada nem declarada, ocorre um erro de compilação.
+
+![image](https://user-images.githubusercontent.com/114358060/196034611-1010f95f-dc45-486d-a706-a4272747dc07.png)
+
+
 
 ### Exception Personalizada
 
@@ -102,6 +115,3 @@ O fluxo de execução "normal" do programa para imeditamente apos a execução d
 Caso encontre essa correspondência, o controlado é transferido para esse bloco. Caso contrário, o próximo bloco try envolvente é verificado e assim por diante.
 Outro caso, é se nenhuma captura for encontrada, o manipulador da exceção padrão interromperá o programa.
 
-🔗 Referências
-
-https://github.com/cami-la/exceptions-java
