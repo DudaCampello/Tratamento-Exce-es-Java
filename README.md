@@ -59,7 +59,7 @@ try, catch, finally: Cada uma dessas palavras, juntas, definem blocos para o tra
 
 throws: Declara que um método pode lançar uma ou várias exceções.
 
-throw: Lança explicitamente uma exception.
+throw: Lança explicitamente uma exception. Geralmente, é usado nos casos personalizados.
 
 ## Blocos try/catch/finally
 
